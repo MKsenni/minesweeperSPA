@@ -1,0 +1,27 @@
+.button {
+    cursor: pointer;
+    padding: 14px 55px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    background-color: white;
+    border: 1px solid rgb(80, 80, 80);
+    border-radius: 7px;
+    color: rgb(80, 80, 80);
+    transition: color, background-color 0.3s;
+}
+
+.button:hover {
+    background-color: rgb(53, 163, 150);
+    opacity: 0.8;
+    border: 1px solid rgb(53, 163, 150);
+    color: white;
+}
+
+@media (max-width: 576px) {
+    .button {
+        margin: 5px 0 0;
+        padding: 5px 30px;
+    }
+}

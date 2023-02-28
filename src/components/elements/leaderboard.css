@@ -1,0 +1,33 @@
+.back {
+    cursor: pointer;
+    margin: 20px 20px 0 0;
+    border: 2px solid rgb(53, 163, 150);
+    height: 35px;
+    border-radius: 7px;
+    background-color: white;
+    transition: color, background-color 0.3s;
+}
+
+.back:hover {
+    background-color: rgb(53, 163, 150);
+    opacity: 0.8;
+    border: 1px solid rgb(53, 163, 150);
+    color: white;
+}
+
+.table {
+    margin-top: 20px;
+    text-align: center;
+    border: 2px solid rgb(53, 163, 150);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 17px;
+    color: rgb(80, 80, 80);
+    border-radius: 7px;
+}
+
+td {
+    padding: 5px 10px;
+    border: 2px solid rgb(53, 163, 150);
+    border-radius: 7px;
+}

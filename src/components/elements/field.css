@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    text-transform: uppercase;
+    color: rgb(80, 80, 80);
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.timer {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(53, 163, 150);
+}
+
+.operation {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.minecount {
+    text-align: center;
+    margin: 0 20px;
+    padding: 20px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgb(53, 163, 150);
+}
+
+.leaderboardBtn {
+    cursor: pointer;
+    padding: 14px 40px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    background-color: white;
+    border: 1px solid rgb(80, 80, 80);
+    border-radius: 7px;
+    color: rgb(80, 80, 80);
+    transition: color, background-color 0.3s;
+}
+
+.leaderboardBtn:hover {
+    background-color: rgb(53, 163, 150);
+    opacity: 0.8;
+    border: 1px solid rgb(53, 163, 150);
+    color: white;
+}
+
+.field {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.y {
+    display: flex;
+}
+
+.x {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin: 1px;
+    background-color: rgb(53, 163, 150);
+
+}
+
+.titleSetting {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 17px;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(80, 80, 80);
+}
+
+.settingBtn {
+    margin: 5px 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    background-color: white;
+    border: 1px solid rgb(80, 80, 80);
+    border-radius: 7px;
+    color: rgb(80, 80, 80);
+    transition: color, background-color 0.3s;
+}
+
+.settingBtn:hover {
+    background-color: rgb(53, 163, 150);
+    opacity: 0.8;
+    border: 1px solid rgb(53, 163, 150);
+    color: white;
+}
+
+@media (max-width: 576px) {
+
+    .header {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .operation {
+        flex-direction: column;
+    }
+
+    .minecount {
+        margin: 5px 0px;
+        font-size: 15px;
+    }
+
+    .minecount {
+        padding: 0;
+    }
+
+    .x {
+        width: 20px;
+        height: 20px;
+        font-size: 14px;
+    }
+
+    .settingBtn {
+        padding: 5px 25px;
+    }
+
+    .leaderboardBtn{
+        padding: 5px 15px;
+        margin-bottom: 10px;
+    }
+
+    .setting {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .titleSetting {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 320px) {
+    .x {
+        width: 15px;
+        height: 15px;
+        font-size: 12px;
+    }
+}
+
+
